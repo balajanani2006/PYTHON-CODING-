@@ -13,7 +13,7 @@ Example:
 Then the output should be:
 1010***
 
-`
+```
 n = input().split(',')
 
 result = []
@@ -23,7 +23,7 @@ for num in n:
         result.append(num)
 
 print(",".join(result))
-`
+```
 
 
 **Write a Python program that accepts a sentence and calculate the number of
@@ -36,7 +36,7 @@ DIGITS 3***
 
 
 
-`
+```
 s=input()
 l=0
 d=0
@@ -48,7 +48,7 @@ for ch in s:
 
 print(l)
 print(d)
-`
+```
 
 
 
@@ -57,11 +57,10 @@ results should be printed in a comma-separated sequence on a single
 line.Suppose the following input is supplied to the program:8
 Then, the output should be:40320***
 
-
-`
+```
 n=int(input())
 f=1
 for i in range(1,n+1):
   f=f*i
 print(f)
-`
+```
